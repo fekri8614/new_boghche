@@ -7,9 +7,8 @@ class Post extends StatelessWidget {
   String price;
   String date;
   String imageUrl;
-  Function onItemClicked;
 
-  Post(this.name, this.price, this.date, this.imageUrl, {required this.onItemClicked});
+  Post(this.name, this.price, this.date, this.imageUrl);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +16,14 @@ class Post extends StatelessWidget {
     var textSize = 20.0;
 
     return GestureDetector(
-      onTap: onItemClicked(),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => SecondPage(imageUrl: imageUrl),
+          ),
+        );
+      },
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: SizedBox(

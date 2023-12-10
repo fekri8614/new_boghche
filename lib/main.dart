@@ -46,7 +46,6 @@ class FirstPage extends StatelessWidget {
               "۷۰۰ تومان",
               "۱۵:۴۵ دقیقه",
               'https://picsum.photos/250?image=10',
-              onItemClicked: () {},
             ),
             const Divider(
               color: Colors.black,
@@ -56,7 +55,6 @@ class FirstPage extends StatelessWidget {
               "۳۰۰ تومان",
               "۱۸:۴۵ دقیقه",
               'https://picsum.photos/250?image=9',
-              onItemClicked: () {},
             ),
             const Divider(
               color: Colors.black,
@@ -66,7 +64,6 @@ class FirstPage extends StatelessWidget {
               "۹۰۰ تومان",
               "۰۸:۱۲ دقیقه",
               'https://picsum.photos/250?image=13',
-              onItemClicked: () {},
             ),
             const Divider(
               color: Colors.black,
@@ -76,7 +73,6 @@ class FirstPage extends StatelessWidget {
               "۱۰۰ تومان",
               "۰۳:۴۵ دقیقه",
               'https://picsum.photos/250?image=7',
-              onItemClicked: () {},
             ),
             const Divider(
               color: Colors.black,
@@ -86,7 +82,6 @@ class FirstPage extends StatelessWidget {
               "۹۰۰ تومان",
               "۱۳:۴۵ دقیقه",
               'https://picsum.photos/250?image=1',
-              onItemClicked: () {},
             ),
           ],
         ),
